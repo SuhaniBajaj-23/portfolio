@@ -1,0 +1,142 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    margin:0px ;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.landing{
+    color: rgb(255, 255, 255);
+    display: flex;
+    height: 100vh;
+    /* background-image: linear-gradient(to bottom, #16202B, rgb(24, 24, 24)); */
+    background-image: url("../../assets/coverpage.jpg");
+    background-size: cover;
+}
+
+.center{
+    padding: 10vw;
+    width: 100%;
+    text-align: center;
+}
+
+.suhanibajaj{
+    font-weight: 1000;
+    font-size: 8rem;
+}
+
+.bottom{
+    font-size: 2.5rem;
+}
+
+.bottom span{
+    padding: 0 2.5rem 0 2.5rem;
+}
+
+.landing .left{
+    padding-top: 20vh;
+    padding-left: 30vh;
+    float: left;
+    width: 50%;
+    text-align: justify;
+}
+
+.landing .right{
+    /* background-color: #22303ecf; */
+    display: flex;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    float: right;
+    width: 50%;
+}
+
+.left p{
+    font-size: 25px;
+}
+
+.left span{
+    font-size: 40px;
+}
+
+.landing ul{
+    font-size: 30px;
+    list-style-type:none;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+
+.landing li{
+    color: #66D9ED;
+    /* padding: 3px; */
+}
+
+.landing .vl {
+    width: 0px;
+    border-left: 2px solid rgba(255, 255, 255, 0.601);
+  }
+
+.social-links{
+    margin-left: 15vw;
+    margin-top: 15vh;
+}
+
+.skills{
+    background-color: #1A191D;
+}
+
+.skills .heading{
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+    text-align: center;
+}
+
+.skills .cards{
+    display: flex;
+    padding-left: 12.5vw;
+    padding-right: 12.5vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.vs{
+    opacity: 20%;
+    margin-top: -20vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.projects{
+    background-color: #1A191D;
+    display: flex;
+}
+
+.projects .heading{
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+    width: 30%;
+    text-align: center;
+    margin: auto;
+    /* align-items: center; */
+}
+
+.projects .cards{
+    padding: 5rem;
+    height: fit-content;
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+     grid-gap: 1rem; 
+    grid-auto-flow: row;
+    justify-content: space-between;
+}
+
+.contact{
+    padding-left: 10vw;
+}

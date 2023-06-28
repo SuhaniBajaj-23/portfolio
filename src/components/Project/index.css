@@ -1,0 +1,40 @@
+.cardP{
+    background-color: #201F23;
+    width: 18vw;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.1) 0px 8px 24px;
+}
+
+.cardP .head{
+    /* height: 60%; */
+    width: 18vw;
+    object-fit: cover;
+}
+
+.cardP img{
+    transition: transform .2s;
+    height: 30vh;
+    width: 18vw;
+    object-fit: cover;
+}
+
+.cardP:hover {
+    transform: scale(1.08); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.cardP .description{
+    padding: 20px;
+}
+
+.cardP .left{
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.cardP .right{
+    color: rgba(255, 255, 255, 0.668);
+    padding-top: 10px;
+    font-size: 17px;
+}
+

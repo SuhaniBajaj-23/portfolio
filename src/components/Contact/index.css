@@ -1,0 +1,53 @@
+.contact{
+    background-color: #1A191D;
+    color: white;
+    display: flex;
+    width: 100%;
+}
+
+.contact .left{
+    padding: 30px;
+}
+ 
+.suhani{
+    opacity: 70%;
+    height: 50vh;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.contact .right{
+    padding: 40px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.contact .heading{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.fields{
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.fields input{
+    border-radius: 10px;
+    width: 50%;
+    font-size: 20px;
+    color:rgba(255, 255, 255, 0.615) ;
+    background-color: #29282e;
+    padding: 3px;
+}
+
+.fields button{
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #1A191D;
+    border: 2px solid  rgba(255, 255, 255, 0.392);
+    border-radius: 20px;
+    /* box-shadow: 4px 4px 8px 4px #2f3031, 0 6px 20px 0 rgb(24, 24, 24); */
+
+}
